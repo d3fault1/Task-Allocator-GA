@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f1f858e4-fa15-4b4c-8b3e-b11918f256d4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://alb-1282291822.us-east-1.elb.amazonaws.com/AlgorithmServerOne/Compute.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Compute1.disco" MetadataType="Disco" ID="a22a14cd-d42c-40b7-9735-7ca673adbebd" SourceId="1" SourceUrl="http://alb-1282291822.us-east-1.elb.amazonaws.com/AlgorithmServerOne/Compute.svc?disco" />
+    <MetadataFile FileName="Compute4.xsd" MetadataType="Schema" ID="dda6915e-e78f-4523-a602-49f5c74a7d56" SourceId="1" SourceUrl="http://alb-1282291822.us-east-1.elb.amazonaws.com/AlgorithmServerOne/Compute.svc?xsd=xsd1" />
+    <MetadataFile FileName="Compute41.xsd" MetadataType="Schema" ID="3201fd66-3410-4119-a72d-99ffff41411b" SourceId="1" SourceUrl="http://alb-1282291822.us-east-1.elb.amazonaws.com/AlgorithmServerOne/Compute.svc?xsd=xsd2" />
+    <MetadataFile FileName="Compute42.xsd" MetadataType="Schema" ID="92df383b-e48b-48b2-8054-b566ec2bb16e" SourceId="1" SourceUrl="http://alb-1282291822.us-east-1.elb.amazonaws.com/AlgorithmServerOne/Compute.svc?xsd=xsd3" />
+    <MetadataFile FileName="Compute43.xsd" MetadataType="Schema" ID="8abefb02-7fc2-40f0-8e41-442aec9520a2" SourceId="1" SourceUrl="http://alb-1282291822.us-east-1.elb.amazonaws.com/AlgorithmServerOne/Compute.svc?xsd=xsd0" />
+    <MetadataFile FileName="Compute1.wsdl" MetadataType="Wsdl" ID="19068be5-0b07-46e8-9ac9-6f1ed6635b4a" SourceId="1" SourceUrl="http://alb-1282291822.us-east-1.elb.amazonaws.com/AlgorithmServerOne/Compute.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
